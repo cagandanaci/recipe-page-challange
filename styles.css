@@ -1,0 +1,78 @@
+@media (min-width : 375px){
+    body{
+        background-color: #F3E5D8;
+    }
+    #main {
+        background-color: white;
+        width: 50%;
+        position: absolute;
+        left: 25%;
+        border-radius: 20px;
+    }
+}
+body {
+    font-family: 'Outfit';
+    font-weight: 300;
+}
+
+h3, ul {
+    margin: 0px;
+}
+
+b {
+    font-weight: 450;
+}
+
+.mainbox{
+    margin:5%;
+}
+
+img{
+    width: 90%;
+    border-radius: 20px;
+}
+
+.fancy {
+    font-family: 'Young Serif';
+    font-weight: 400;
+}
+
+h2{
+    color: hsl(14, 45%, 36%);
+}
+
+.duration-box {
+    background-color: #fff5faff;
+    padding: 20px;
+    border-radius: 10px;
+}
+h3{
+    color: hsl(332, 51%, 32%);
+    font-weight: 550;
+    margin-bottom: 10px;
+}
+
+ul > li {
+    margin: 5px;
+    list-style: square;
+    list-style-position: outside;
+}
+
+ul > li::marker {
+    font-size: 10px;
+    color: hsl(14, 45%, 36%);
+}
+
+.duration-box > ul > li::marker {
+    color: hsl(332, 51%, 32%);
+}
+
+.nutrition {
+    color: hsl(14, 45%, 36%);
+    font-weight: 600;
+    list-style-type: none;
+}
+.nutrition_box {
+    display: inline-block;
+    width: 50%;
+}
